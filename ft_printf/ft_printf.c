@@ -6,7 +6,7 @@
 /*   By: imustafa <imustafa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/14 16:15:42 by imustafa          #+#    #+#             */
-/*   Updated: 2021/11/14 16:20:02 by imustafa         ###   ########.fr       */
+/*   Updated: 2021/11/16 11:26:37 by imustafa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -118,8 +118,8 @@ int	ft_puthex(unsigned int hex)
 	i = ft_hexlen(hex);
 	if (hex > 15)
 	{
-		ft_puthexs(hex / 16);
-		ft_puthexs(hex % 16);
+		ft_puthex(hex / 16);
+		ft_puthex(hex % 16);
 	}
 	if (hex <= 15 && hex >= 0)
 	{
