@@ -17,11 +17,11 @@ To test your program compare your results with the true printf.
 
 Exemples of the function output:
 
-call: ft_printf("%10.2s\n", "toto");
-out:        to$
+call: ft_printf("%s\n", "toto");
+out:toto$
 
-call: ft_printf("Magic %s is %5d", "number", 42);
-out:Magic number is    42%
+call: ft_printf("Magic %s is %d", "number", 42);
+out:Magic number is 42%
 
 call: ft_printf("Hexadecimal for %d is %x\n", 42, 42);
 out:Hexadecimal for 42 is 2a$
