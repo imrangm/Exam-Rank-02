@@ -6,7 +6,7 @@
 /*   By: imustafa <imustafa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/14 16:15:42 by imustafa          #+#    #+#             */
-/*   Updated: 2021/11/16 11:26:37 by imustafa         ###   ########.fr       */
+/*   Updated: 2021/11/30 13:17:23 by imustafa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,12 +61,8 @@ int	ft_numlen(int n)
 int	ft_sign(int n)
 {
 	if (n < 0)
-	{
-		n = n * (-1);
 		return (1);
-	}
-	else
-		return (0);
+	return (0);
 }
 
 int	ft_putnbr(int n)
